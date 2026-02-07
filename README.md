@@ -1,1 +1,1 @@
-# Aristotle
+A collection of proofs written by Aristotle
