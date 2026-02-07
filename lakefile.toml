@@ -1,0 +1,15 @@
+name = "Aristotle"
+version = "0.1.0"
+defaultTargets = ["aristotle"]
+
+[[lean_lib]]
+name = "Aristotle"
+
+[[lean_exe]]
+name = "aristotle"
+root = "Main"
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/ChrisHughes24/mathlib4.git"
+rev = "f897ebcf72cd16f89ab4577d0c826cd14afaafc7"
